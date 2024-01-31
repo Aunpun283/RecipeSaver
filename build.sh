@@ -2,7 +2,7 @@
 # exit on error
 
  
-pip install --upgrade pymongo bson
+pip install -r reqs.txt
 python manage.py collectstatic --no-input
 python manage.py migrate
  
